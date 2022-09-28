@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* @media screen and (max-width: 480px) {
+  .container {
+    width: 200px;
+    height: 200px;
+    color: black;
+    line-height: 20px;
+  }
+} */
+
+@media print {
+  body {
+    color: black;
+    background-color: grey;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 0.5em;
+}
+
+.personal-information {
+  height: 200px;
+  width: 500px;
+  line-height: 10px;
+  background-color: blanchedalmond;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition-property: font-size;
+  transition-duration: 6s;
+}
+
+.personal-information:hover {
+  font-size: 15px;
+  background-color: beige;
+}
+
+.employment {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 2.5em;
+}
+.name {
+  font-size: 35px;
+}
+
+.image {
+  border-radius: 50px;
+}
+
+.history {
+  line-height: 5px;
+  background-color: blanchedalmond;
+  background-size: auto;
+  transition-property: font-size;
+  transition-duration: 4s;
+}
+
+.history:hover {
+  font-size: 15px;
+  background-color: beige;
+}
+.employment-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.education-header {
+  line-height: 5px;
+  background-color: blanchedalmond;
+  background-size: auto;
+  transition-property: font-size;
+  transition-duration: 4s;
+}
+
+.education-header:hover {
+  font-size: 15px;
+  background-color: beige;
+}
+
+.education-container {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 1.5em;
+}
+.education-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.skills {
+  line-height: 25px;
+  background-color: blanchedalmond;
+  background-size: 20px;
+  transition-property: font-size;
+  transition-duration: 4s;
+}
+
+.skills:hover {
+  font-size: 15px;
+  background-color: beige;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 1.5em;
+}
+
+.skills-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
